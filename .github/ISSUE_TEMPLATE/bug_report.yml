@@ -1,0 +1,69 @@
+name: Bug Report
+description: Report a bug or issue with the repository content
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug in the Orange Sky Labs Knowledge Repository! Please provide details to help us fix it quickly.
+
+  - type: input
+    id: document
+    attributes:
+      label: Document/Section Affected
+      description: Which document or section has the issue?
+      placeholder: e.g., ventures/orange-sky-labs/overview.md, resources/templates/six-pager-template.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: What's wrong? Be as specific as possible.
+      placeholder: Describe the issue you encountered...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead?
+      placeholder: Describe what you expected to see...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. See error...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
+      placeholder: Screenshots, links, or other relevant information...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to ensure this isn't a duplicate
+          required: true
+        - label: I have read the contributing guidelines
+          required: true 

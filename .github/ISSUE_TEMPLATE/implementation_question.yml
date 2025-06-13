@@ -1,0 +1,86 @@
+name: Implementation Question
+description: Ask questions about implementing Orange Sky frameworks in your organization
+title: "[QUESTION] "
+labels: ["question", "implementation"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Great question! The community is here to help you successfully implement Orange Sky's innovation frameworks.
+
+  - type: input
+    id: organization-context
+    attributes:
+      label: Organization Context
+      description: What type of organization are you working with?
+      placeholder: e.g., Small NFP (10 staff), Large charity (500+ staff), Social enterprise, etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: framework-interest
+    attributes:
+      label: Which Framework/Resource?
+      description: What specific framework or resource is your question about?
+      options:
+        - Delta Innovation Framework
+        - Six-Pager Template
+        - Venture Prioritization
+        - Team Structure/Roles
+        - NFP Scaling Guide
+        - Lean Canvas for Social Impact
+        - Governance Integration
+        - Multiple frameworks
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: specific-question
+    attributes:
+      label: Your Specific Question
+      description: What exactly would you like help with?
+      placeholder: Be as specific as possible about your implementation challenge...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context-details
+    attributes:
+      label: Context & Background
+      description: What's your current situation and what have you tried so far?
+      placeholder: Current innovation practices, challenges faced, previous attempts...
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: Desired Outcome
+      description: What are you hoping to achieve?
+      placeholder: What success would look like for your organization...
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints or Limitations
+      description: What limitations should we consider in our advice?
+      placeholder: Budget, time, team capacity, regulatory requirements, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: preparation
+    attributes:
+      label: Preparation Checklist
+      options:
+        - label: I have read the relevant documentation in the repository
+          required: true
+        - label: I have searched existing issues for similar questions
+          required: true
+        - label: I am committed to implementing the guidance provided
+          required: false 
