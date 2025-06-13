@@ -1,0 +1,55 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+
+# Personal Notes (exclude from public repository)
+personal-notes/
+drafts/
+private/
+
+# Large Files
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+
+# Cache Files
+.cache/
+node_modules/
+.npm/
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Build Files
+dist/
+build/
+public/
+
+# Documentation Build Files
+_site/
+.jekyll-cache/
+.jekyll-metadata 
