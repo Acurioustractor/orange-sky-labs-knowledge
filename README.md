@@ -29,25 +29,31 @@ Complete documentation of 12 ventures across 5 strategic categories:
 - Case studies and implementation examples
 - Sample queries for effective knowledge discovery
 
-## 🤖 **Using with Claude**
+## 🤖 **AI-Powered Implementation**
 
-This repository is optimized for AI-assisted discovery and implementation:
+This repository is specifically designed for AI-assisted NFP transformation. Get started in 3 minutes:
 
-### Quick Start
-1. **Upload to Claude**: Drag the repository folder into your Claude project
-2. **Ask Strategic Questions**: 
-   - "Show me the complete Delta innovation methodology"
-   - "How do I build an innovation team like Orange Sky's?"
-   - "What's the Six-Pager template for venture proposals?"
-3. **Get Implementation Guidance**: Claude will provide detailed, actionable advice
+### 🚀 **Quick Start (Any AI Platform)**
+1. **[Download Repository](https://github.com/Acurioustractor/orange-sky-labs-knowledge/archive/refs/heads/main.zip)** 
+2. **Choose 3-4 documents** based on your role ([see guide](QUICK_START_GUIDE.md))
+3. **Upload to ChatGPT** or copy-paste to any AI assistant
+4. **Use starter prompts** to begin implementation
 
-### Example Queries
+### 📋 **Platform-Specific Guides**
+- **[⚡ Quick Start Guide](QUICK_START_GUIDE.md)** - 3-minute setup for anyone
+- **[💬 ChatGPT Guide](examples/ai-integration/chatgpt-usage-guide.md)** - Comprehensive ChatGPT integration  
+- **[🔄 Multi-Platform Guide](examples/ai-integration/multi-platform-guide.md)** - Claude, Gemini, Copilot
+- **[🧠 Claude Guide](examples/ai-integration/instructions.md)** - Advanced Claude usage
+
+### 💡 **Ready-to-Use Prompts**
 ```
-🔍 "Find resources about NFP scaling strategies"
-🔍 "Show me the venture prioritization framework"  
-🔍 "How does Orange Sky manage innovation portfolios?"
-🔍 "What templates are available for social impact projects?"
+🔍 "Create a 90-day innovation plan for my 50-person NFP using Orange Sky's methodology"
+🔍 "Adapt the Six-Pager template for a youth mental health program"  
+🔍 "Help me build board buy-in using Orange Sky's governance approach"
+🔍 "Apply Delta methodology to scale our food rescue program"
 ```
+
+**🌟 Start Now**: [Quick Start Guide](QUICK_START_GUIDE.md) → Transform your NFP in 30 days!
 
 ## 📊 **Repository Statistics**
 
