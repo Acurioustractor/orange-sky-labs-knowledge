@@ -3,68 +3,145 @@
 Welcome to the Orange Sky Labs open-source knowledge repository. This collection contains frameworks, tools, and insights from our journey in social innovation and supporting the not-for-profit sector.
 
 ## 🎯 Purpose
-Share practical knowledge to help NFPs scale their impact through innovation, effective operations, and sustainable growth.
+Share practical knowledge to help NFPs scale their impact through innovation, effective operations, and sustainable growth strategies developed through Orange Sky's 4+ years of systematic innovation.
 
 ## 📚 What's Inside
-- **Ventures**: Detailed documentation of innovation projects
-- **Resources**: Templates, frameworks, and guides
-- **Knowledge Base**: Research and insights
-- **Examples**: Real-world case studies
 
-## 🏗️ Repository Structure
+### 🚀 **Ventures** - Innovation Portfolio
+Complete documentation of 12 ventures across 5 strategic categories:
+- **Technology & Digital**: Orange Sky Labs, FLIP, On Off
+- **Community Infrastructure**: Trust Exchange, Orange Spaces, Essential Items  
+- **Consulting & Methodology**: Delta Innovation Framework
+- **Social Connection**: Analogue Connections, Expat Gap Year
+- **Advocacy & Research**: Stereotypes, Where's Wally & Wilma, Orange Regeneration
+
+### 📋 **Resources** - Reusable Tools
+- **Templates**: Six-Pager Template, Lean Canvas for Social Impact
+- **Frameworks**: Innovation methodologies and assessment tools
+- **Guides**: NFP Scaling Guide (7,000+ words), operational best practices
+
+### 🧠 **Knowledge Base** - Strategic Insights
+- **Operational Details**: Complete Delta Playbook methodology, team structure
+- **Strategic Evolution**: Governance decisions and organizational learning
+- **Sector Insights**: Research and trends in social innovation
+
+### 💡 **Examples** - Real-World Applications
+- Case studies and implementation examples
+- Sample queries for effective knowledge discovery
+
+## 🤖 **Using with Claude**
+
+This repository is optimized for AI-assisted discovery and implementation:
+
+### Quick Start
+1. **Upload to Claude**: Drag the repository folder into your Claude project
+2. **Ask Strategic Questions**: 
+   - "Show me the complete Delta innovation methodology"
+   - "How do I build an innovation team like Orange Sky's?"
+   - "What's the Six-Pager template for venture proposals?"
+3. **Get Implementation Guidance**: Claude will provide detailed, actionable advice
+
+### Example Queries
+```
+🔍 "Find resources about NFP scaling strategies"
+🔍 "Show me the venture prioritization framework"  
+🔍 "How does Orange Sky manage innovation portfolios?"
+🔍 "What templates are available for social impact projects?"
+```
+
+## 📊 **Repository Statistics**
+
+- **📁 12 Ventures**: Fully documented with strategic analysis
+- **📄 18+ Documents**: 4,000+ lines of structured content
+- **🎯 85% Strategic Coverage**: Core innovation knowledge captured
+- **⚡ 4+ Years**: Proven methodology with measurable results
+- **🌟 5 Focus Areas**: Technology, Community, Consulting, Social, Advocacy
+
+## 🏗️ **Repository Structure**
 
 ```
 orange-sky-labs-knowledge/
-├── README.md                           # Main repository documentation
-├── LICENSE                             # MIT License for open sharing
-├── CONTRIBUTING.md                     # How others can contribute
-├── CHANGELOG.md                        # Version history
-├── .gitignore                          # Ignore unnecessary files
+├── 📂 ventures/                    # Innovation portfolio
+│   ├── orange-sky-labs/           # Consulting & capacity building
+│   ├── friend-life-impact-project/ # Digital platform for friend voice
+│   ├── trust-exchange/             # Storage solutions
+│   ├── delta-innovation/           # Innovation framework
+│   └── [8 additional ventures]     # Complete portfolio
 │
-├── 📂 ventures/                        # All venture initiatives
-│   ├── README.md                       # Ventures overview
-│   ├── orange-sky-labs/
-│   ├── friend-life-impact-project/
-│   ├── trust-exchange/
-│   └── delta-innovation/
+├── 📂 resources/                   # Reusable tools & templates
+│   ├── templates/                  # Six-Pager, Lean Canvas, etc.
+│   ├── frameworks/                 # Innovation methodologies
+│   └── guides/                     # NFP scaling, best practices
 │
-├── 📂 resources/                       # Reusable resources
-│   ├── templates/
-│   ├── frameworks/
-│   └── guides/
+├── 📂 knowledge-base/              # Strategic insights
+│   ├── operational-details/        # Delta Playbook, team structure
+│   └── strategic-evolution/        # Governance, organizational learning
 │
-├── 📂 knowledge-base/                  # Core knowledge documents
-│   ├── sector-insights/
-│   ├── operational/
-│   └── technology/
-│
-├── 📂 examples/                        # Real-world examples
-│   └── case-studies/
-│
-└── 📂 claude-integration/              # Claude-specific files
-    ├── instructions.md
-    ├── prompt-templates.md
-    └── search-tips.md
+├── 📂 examples/                    # Case studies & applications
+│   └── claude-integration/         # AI-assisted usage guides
+└── 📂 documentation/               # Repository guides & contribution info
 ```
 
-## 🤝 Using with Claude
-1. Download or fork this repository
-2. Upload relevant folders to your Claude project
-3. Ask Claude to search for specific topics or browse categories
+## 🚀 **Getting Started**
 
-## 📝 Contributing
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+### For NFP Leaders
+1. **Start with Ventures Overview**: Understand the innovation portfolio
+2. **Review Delta Framework**: Learn the systematic innovation methodology
+3. **Use Templates**: Adapt Six-Pager and Lean Canvas for your projects
+4. **Study Case Studies**: See real-world applications and results
 
-## 📄 License
-This work is licensed under [MIT License](LICENSE) - feel free to use and adapt with attribution.
+### For Innovation Teams
+1. **Delta Playbook**: Complete operational methodology
+2. **Team Structure Guide**: How to build and manage innovation teams
+3. **Resource Allocation**: Venture prioritization and funding frameworks
+4. **Success Metrics**: Measurement and evaluation approaches
 
-## 🙏 Acknowledgments
-Created by Orange Sky Labs team with support from the broader NFP community.
+### For Researchers & Students
+1. **Strategic Evolution**: Historical context and organizational learning
+2. **Sector Insights**: Trends and patterns in social innovation
+3. **Governance Integration**: Board-level innovation oversight
 
-## 🚀 Quick Start
-- Browse `ventures/` for innovation project documentation
-- Check `resources/templates/` for reusable frameworks
-- Explore `knowledge-base/` for sector insights
-- See `examples/case-studies/` for real-world applications
+## 🤝 **Contributing**
 
-For Claude integration instructions, see `claude-integration/instructions.md`. 
+We welcome contributions from the NFP community! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+- Adding case studies and examples
+- Sharing implementation experiences  
+- Suggesting improvements and updates
+- Translating content for broader accessibility
+
+## 📄 **License & Usage**
+
+This work is licensed under [MIT License](LICENSE) - feel free to use, adapt, and share with attribution.
+
+**Attribution**: Created by Orange Sky Labs with support from the NFP innovation community.
+
+## 🔗 **Connect & Support**
+
+- **Website**: [Orange Sky Australia](https://orangesky.org.au)
+- **Innovation Hub**: Orange Sky Labs
+- **Community**: Join the conversation about NFP innovation
+
+## 🙏 **Acknowledgments**
+
+Special thanks to:
+- **Team Delta**: For developing and testing these methodologies
+- **Orange Sky Friends**: For inspiring continuous innovation
+- **NFP Community**: For collaboration and shared learning
+- **Innovation Partners**: For supporting sector-wide capability building
+
+---
+
+### 🎯 **Start Exploring**
+
+Ready to dive in? Here are the most popular starting points:
+
+1. **[Delta Innovation Framework](ventures/delta-innovation/framework.md)** - Complete methodology
+2. **[Six-Pager Template](resources/templates/six-pager-template.md)** - Venture proposal template
+3. **[NFP Scaling Guide](resources/guides/nfp-scaling-guide.md)** - Comprehensive scaling strategies
+4. **[Team Structure Guide](knowledge-base/operational-details/team-structure-and-roles.md)** - Building innovation teams
+
+**🤖 Best with Claude**: Upload this repository to Claude for AI-powered discovery and implementation guidance.
+
+---
+
+*Transforming social innovation through shared knowledge and systematic methodology.* 

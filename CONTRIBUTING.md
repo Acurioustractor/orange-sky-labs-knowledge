@@ -1,239 +1,230 @@
 # Contributing to Orange Sky Labs Knowledge Repository
 
-Thank you for your interest in contributing to the Orange Sky Labs Knowledge Repository! This guide will help you understand how to add value to this collection of frameworks, tools, and insights for social innovation.
+Welcome to the Orange Sky Labs Knowledge Repository! We're excited to build this community resource together with NFP leaders, innovation practitioners, and social impact enthusiasts.
 
-## 🎯 How You Can Contribute
+## 🎯 **Our Vision**
 
-### 1. **Knowledge Sharing**
-- Share your experiences using Orange Sky frameworks
-- Document adaptations you've made for different contexts
-- Contribute lessons learned from implementation
-- Add case studies from your organization
+To create the most comprehensive, practical, and accessible knowledge base for NFP innovation and scaling - powered by shared experiences and proven methodologies.
 
-### 2. **Template & Framework Enhancement**
-- Improve existing templates based on your usage
-- Create specialized versions for different sectors
-- Add missing components or sections
-- Suggest better formatting or structure
+## 🤝 **How You Can Contribute**
 
-### 3. **Documentation Improvement**
-- Fix typos, grammar, or formatting issues
-- Clarify confusing sections
-- Add missing context or background information
-- Improve navigation and cross-references
+### 1. **Share Implementation Experiences**
+- Document how you've applied Orange Sky frameworks in your organization
+- Share challenges, adaptations, and lessons learned
+- Provide before/after metrics and impact stories
 
-### 4. **New Content Creation**
-- Add missing venture documentation
-- Create new templates for common use cases
-- Develop guides for specific challenges
-- Contribute research insights or trend analysis
+### 2. **Add Case Studies**
+- Real-world examples of NFP innovation success
+- Scaling stories from the sector
+- Partnership models and collaboration approaches
 
-## 📝 Content Guidelines
+### 3. **Expand Resources**
+- Templates adapted for specific NFP contexts
+- Tools and frameworks you've developed
+- Assessment instruments and evaluation methods
 
-### Writing Standards
-- **Clear Language**: Use accessible, jargon-free language
-- **Practical Focus**: Emphasize actionable insights over theory
-- **Evidence-Based**: Include examples, data, or references where possible
-- **Inclusive Tone**: Write for diverse audiences and experience levels
+### 4. **Improve Documentation**
+- Clarify existing content for better understanding
+- Add visual diagrams and process flows
+- Translate content for accessibility
 
-### Document Structure
-- **Consistent Headers**: Use the established header hierarchy
-- **Metadata**: Include YAML frontmatter with title, category, tags, and date
-- **Cross-References**: Link to related documents within the repository
-- **Template Compliance**: Follow existing document templates where applicable
+### 5. **Community Building**
+- Connect practitioners with similar challenges
+- Facilitate knowledge sharing conversations
+- Organize virtual learning sessions
 
-### Content Types
+## 📋 **Contribution Guidelines**
 
-#### **Venture Documentation**
-- Problem statement and opportunity analysis
-- Solution design and implementation approach
-- Business model and sustainability plan
-- Impact measurement framework
-- Implementation learnings and next steps
+### Content Standards
 
-#### **Templates & Frameworks**
-- Clear instructions for use
-- Placeholder text in [brackets]
-- Usage examples or case studies
-- Modification guidelines for different contexts
+#### **Quality Criteria**
+- **Practical**: Actionable insights that can be immediately applied
+- **Tested**: Based on real-world experience, not theoretical concepts
+- **Accessible**: Clear language that serves diverse NFP audiences
+- **Attributed**: Proper credit to sources and contributors
 
-#### **Guides & Resources**
-- Step-by-step instructions
-- Best practices and common pitfalls
-- Resource requirements and timelines
-- Success metrics and evaluation criteria
-
-## 🔄 Contribution Process
-
-### 1. **Fork & Clone**
-```bash
-# Fork the repository on GitHub
-# Clone your fork locally
-git clone https://github.com/yourusername/orange-sky-labs-knowledge.git
-cd orange-sky-labs-knowledge
-```
-
-### 2. **Create a Branch**
-```bash
-# Create a descriptive branch name
-git checkout -b add-volunteer-management-guide
-```
-
-### 3. **Make Your Changes**
-- Follow the file structure and naming conventions
-- Use the appropriate templates for new content
-- Ensure all links work correctly
-- Test your changes locally
-
-### 4. **Commit Your Changes**
-```bash
-# Stage your changes
-git add .
-
-# Commit with a descriptive message
-git commit -m "Add volunteer management guide with retention strategies"
-```
-
-### 5. **Submit Pull Request**
-- Push your branch to your fork
-- Create a pull request with a clear description
-- Reference any related issues or discussions
-- Be responsive to feedback and requests for changes
-
-## 📁 File Organization
-
-### Directory Structure
-```
-├── ventures/                    # Innovation projects and initiatives
-│   ├── [venture-name]/
-│   │   ├── overview.md         # Main venture documentation
-│   │   ├── implementation.md   # Detailed implementation guide
-│   │   └── resources/          # Supporting materials
-├── resources/                   # Reusable tools and templates
-│   ├── templates/              # Document templates
-│   ├── frameworks/             # Methodological frameworks
-│   └── guides/                 # How-to guides and best practices
-├── knowledge-base/             # Core knowledge and insights
-│   ├── sector-insights/        # Industry trends and research
-│   ├── operational/            # Service delivery knowledge
-│   └── technology/             # Technical implementation guides
-└── examples/                   # Case studies and examples
-    └── case-studies/           # Real-world implementation examples
-```
-
-### Naming Conventions
-- **Files**: `kebab-case-naming.md`
-- **Directories**: `kebab-case-naming/`
-- **Branches**: `descriptive-branch-name`
-- **Commits**: Clear, imperative mood messages
-
-## ✅ Quality Standards
-
-### Before Submitting
-- [ ] Content is original or properly attributed
-- [ ] All links work and reference valid resources
-- [ ] Spelling and grammar are correct
-- [ ] Formatting follows repository standards
-- [ ] Metadata is complete and accurate
-- [ ] Content adds value to the repository
-
-### Review Criteria
-- **Relevance**: Does this add value for users of the repository?
-- **Quality**: Is the content well-written and accurate?
-- **Completeness**: Does it include all necessary components?
-- **Consistency**: Does it follow established patterns and standards?
-- **Usefulness**: Will others find this practically useful?
-
-## 🎨 Style Guide
-
-### Markdown Standards
-- Use `#` for page titles, `##` for major sections, `###` for subsections
-- Use **bold** for emphasis and *italics* for slight emphasis
-- Use code blocks for examples and templates
-- Use tables for structured data
-- Use lists for action items and multiple points
-
-### YAML Frontmatter
-```yaml
+#### **Content Structure**
+```markdown
 ---
-title: "Document Title"
-category: "Primary Category"
-tags: ["tag1", "tag2", "tag3"]
+title: "Your Content Title"
+category: "Content Category"
+tags: ["relevant", "keywords", "for", "discovery"]
+contributor: "Your Name/Organization"
 date: "YYYY-MM-DD"
-status: "active/development/archived"
-type: "template/guide/case-study" (optional)
+status: "draft/review/published"
 ---
+
+# Your Content Title
+
+## Context
+Brief background on the challenge or opportunity
+
+## Approach
+What you did, how you approached it
+
+## Results
+Outcomes, metrics, impact achieved
+
+## Lessons Learned
+Key insights, what you'd do differently
+
+## Replication Guide
+How others can apply this in their context
 ```
 
-### Linking Standards
-- Use relative links for internal references: `[link text](../folder/file.md)`
-- Use descriptive link text, not "click here" or bare URLs
-- Include section anchors where helpful: `[link text](file.md#section-name)`
+### Submission Process
 
-## 🤝 Community Guidelines
+#### **For Small Updates**
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/your-contribution`)
+3. **Make** your changes following our content standards
+4. **Commit** with descriptive messages
+5. **Submit** a pull request with detailed description
 
-### Collaboration
-- **Respectful Communication**: Maintain professional, respectful tone
-- **Constructive Feedback**: Provide specific, actionable suggestions
-- **Open Learning**: Share knowledge freely and ask questions openly
-- **Attribution**: Credit others' contributions and ideas appropriately
+#### **For Major Contributions**
+1. **Open an Issue** first to discuss your planned contribution
+2. **Get feedback** from maintainers and community
+3. **Follow** the standard submission process above
+4. **Participate** in review and refinement process
 
-### Licensing & Attribution
-- All contributions are subject to the repository's MIT License
-- By contributing, you agree to license your work under the same terms
-- Properly attribute any content you adapt from other sources
-- Respect intellectual property and confidentiality requirements
+## 📁 **Content Categories**
 
-## 🎓 Getting Started Tips
+### **Ventures & Innovation**
+- `/ventures/[venture-name]/community-implementations.md`
+- New venture concepts and variations
+- Adaptation stories and local implementations
 
-### For First-Time Contributors
-1. **Start Small**: Begin with minor improvements or additions
-2. **Read Existing Content**: Understand the style and approach
-3. **Ask Questions**: Use GitHub issues for clarification
-4. **Follow Examples**: Look at existing documents as templates
+### **Resources & Tools**
+- `/resources/templates/[your-template].md`
+- `/resources/frameworks/[your-framework].md`
+- `/resources/guides/[your-guide].md`
 
-### For Experienced Contributors
-1. **Identify Gaps**: Look for missing content or outdated information
-2. **Share Expertise**: Contribute specialized knowledge from your domain
-3. **Improve Structure**: Suggest better organization or navigation
-4. **Mentor Others**: Help new contributors get started
+### **Knowledge Base**
+- `/knowledge-base/case-studies/[your-case-study].md`
+- `/knowledge-base/sector-insights/[your-insights].md`
+- `/knowledge-base/lessons-learned/[your-lessons].md`
 
-## 📞 Getting Help
+### **Examples & Applications**
+- `/examples/implementations/[your-example].md`
+- `/examples/adaptations/[your-adaptation].md`
 
-### Questions & Support
-- **GitHub Issues**: For bugs, feature requests, or general questions
-- **Discussions**: For broader conversations about content direction
-- **Email**: [Contact information if available]
+## 🔍 **Review Process**
 
-### Common Questions
-- **"How do I know what to contribute?"** - Look at existing issues, or identify gaps in content that relate to your experience
-- **"What if I'm not sure about the format?"** - Follow existing examples and ask for feedback in your pull request
-- **"Can I contribute if I work outside the NFP sector?"** - Yes! Many frameworks are applicable across sectors
+### **Community Review**
+1. **Peer Review**: Other contributors provide feedback
+2. **Technical Review**: Maintainers check quality and fit
+3. **Impact Assessment**: Evaluation of contribution value
+4. **Publication**: Integration into main repository
 
-## 🙏 Recognition
+### **Review Criteria**
+- **Relevance**: Aligns with repository mission and audience needs
+- **Quality**: Meets content standards and guidelines
+- **Originality**: Adds new value beyond existing content
+- **Accessibility**: Usable by diverse NFP practitioners
 
-Contributors are recognized through:
-- GitHub contributor listings
-- Acknowledgment in relevant documents
-- Community recognition for significant contributions
-- Opportunity to present at Orange Sky Labs events (where applicable)
+## 🌟 **Recognition**
+
+### **Contributor Acknowledgment**
+- **Public Credit**: Listed in contributor sections
+- **Author Attribution**: Named in contributed content
+- **Community Profiles**: Featured in community showcases
+- **Speaking Opportunities**: Invited to share at events
+
+### **Impact Tracking**
+- **Usage Metrics**: How your contributions are being used
+- **Community Feedback**: Comments and adaptation stories
+- **Implementation Reports**: Real-world application results
+
+## 🛠️ **Technical Guidelines**
+
+### **File Naming**
+- Use descriptive, lowercase names with hyphens
+- Include category prefixes where helpful
+- Example: `nfp-volunteer-engagement-framework.md`
+
+### **Markdown Standards**
+- Use consistent heading hierarchy (H1 for title, H2 for main sections)
+- Include metadata headers for all documents
+- Link to related content within the repository
+
+### **Image and Media**
+- Store images in `/assets/images/[category]/`
+- Use descriptive filenames
+- Provide alt text for accessibility
+- Keep file sizes reasonable (<1MB per image)
+
+## 🚀 **Getting Started**
+
+### **New Contributors**
+1. **Explore** the repository to understand the structure and style
+2. **Identify** an area where you can contribute based on your experience
+3. **Start Small** with a minor improvement or addition
+4. **Engage** with the community through issues and discussions
+
+### **Quick Wins**
+- Fix typos or improve clarity in existing documents
+- Add examples to existing frameworks
+- Share a brief case study of framework application
+- Suggest new templates or tools
+
+## 📞 **Community & Support**
+
+### **Communication Channels**
+- **GitHub Issues**: For discussing specific contributions
+- **GitHub Discussions**: For broader community conversations
+- **Community Events**: Virtual meetups and learning sessions
+
+### **Getting Help**
+- **Documentation Questions**: Open an issue with the "documentation" label
+- **Technical Issues**: Use the "technical" label for GitHub-related problems
+- **Content Guidance**: Ask maintainers for advice on contribution fit
+
+### **Community Guidelines**
+- **Respectful**: Maintain professional and inclusive communication
+- **Collaborative**: Focus on building together, not competing
+- **Constructive**: Provide helpful feedback and suggestions
+- **Attribution**: Always credit sources and collaborators
+
+## 📊 **Contributor Levels**
+
+### **Community Contributor**
+- Occasional contributions
+- Issue reporting and discussions
+- Peer review participation
+
+### **Regular Contributor**
+- Multiple contributions over time
+- Active community participation
+- Mentoring new contributors
+
+### **Maintainer**
+- Regular review and curation responsibilities
+- Community leadership and facilitation
+- Strategic guidance for repository direction
+
+## 🎉 **Special Contributions**
+
+### **Case Study Spotlights**
+Exceptional case studies may be featured in:
+- Repository homepage
+- Community newsletters
+- Conference presentations
+- Academic publications
+
+### **Framework Developers**
+Contributors who develop significant frameworks may be invited to:
+- Co-author related publications
+- Present at sector conferences
+- Participate in research collaborations
 
 ---
 
-## 📋 Contribution Checklist
+## 🙏 **Thank You**
 
-Before submitting your contribution:
+Every contribution, no matter how small, helps build a stronger NFP sector. Your experiences, insights, and innovations make this repository a valuable resource for the entire community.
 
-- [ ] I have read and understood the contribution guidelines
-- [ ] My content follows the established style and format
-- [ ] I have tested all links and references
-- [ ] My contribution adds clear value to the repository
-- [ ] I have provided appropriate attribution for any adapted content
-- [ ] My commit messages are clear and descriptive
-- [ ] I am prepared to respond to feedback and make revisions
+**Ready to contribute?** Start by exploring the repository, identifying an area of interest, and opening your first issue or pull request. We're here to help you succeed!
 
 ---
 
-Thank you for contributing to the Orange Sky Labs Knowledge Repository. Your knowledge and experience help build a stronger, more supportive ecosystem for social innovation and impact.
-
-*Questions about contributing? Open an issue or reach out to the maintainers.* 
+*Building the future of NFP innovation together, one contribution at a time.* 

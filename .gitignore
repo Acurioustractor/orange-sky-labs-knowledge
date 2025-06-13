@@ -1,4 +1,19 @@
-# Operating System Files
+# Orange Sky Labs Knowledge Repository .gitignore
+
+# Documentation build outputs
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
 .DS_Store
 .DS_Store?
 ._*
@@ -7,49 +22,67 @@
 ehthumbs.db
 Thumbs.db
 
-# Editor Files
-*.swp
-*.swo
-*~
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Temporary Files
+# Temporary files
 *.tmp
 *.temp
 *.log
 *.bak
-*.orig
 
-# Personal Notes (exclude from public repository)
-personal-notes/
-drafts/
-private/
-
-# Large Files
-*.pdf
-*.zip
-*.tar.gz
-*.rar
-
-# Cache Files
-.cache/
-node_modules/
-.npm/
-
-# Environment Files
+# Local environment files
 .env
 .env.local
-.env.production
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Build Files
-dist/
-build/
-public/
+# Processing and extraction files
+extracted-content/
+processing-temp/
+*.pdf.txt
+*-raw.txt
 
-# Documentation Build Files
-_site/
-.jekyll-cache/
-.jekyll-metadata 
+# Personal notes and draft files
+NOTES.md
+TODO.md
+draft-*
+personal-*
+
+# Large files that shouldn't be tracked
+*.pdf
+*.docx
+*.pptx
+*.zip
+*.tar.gz
+
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Ruby (for Jekyll if used)
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Ignore sensitive information
+secrets.md
+confidential/
+private-notes/ 
